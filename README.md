@@ -4,7 +4,7 @@ A comprehensive React shopping application that demonstrates all major React con
 
 ## Features Covered
 
-### ✅ Basic React Concepts
+### Basic React Concepts
 - **Components**: Functional components (App, Navbar, ProductsList, ProductCard, ProductDetails, Cart, Profile)
 - **JSX**: HTML-like syntax in JavaScript
 - **Props**: Data passing from parent to child components
@@ -13,31 +13,31 @@ A comprehensive React shopping application that demonstrates all major React con
 - **Lists & Keys**: Rendering arrays with proper keys
 - **Conditional Rendering**: Show/hide UI based on conditions
 
-### ✅ Intermediate Concepts
+### Intermediate Concepts
 - **useEffect**: Lifecycle management and side effects
 - **useRef**: DOM references and value storage
 - **Context API**: Global state management (UserContext)
 
-### ✅ Advanced React
+### Advanced React
 - **React Router**: Navigation and routing (/product/:id, /cart, /profile)
 - **API Calls**: Axios for fetching data from external APIs
 - **Custom Hooks**: useFetch for reusable data fetching logic
 
-### ✅ Redux (Global Store)
+### Redux (Global Store)
 - **Redux Toolkit**: cartSlice and userSlice
 - **useSelector**: Reading state from Redux store
 - **useDispatch**: Updating Redux state
 
-### ✅ Performance Optimization
+### Performance Optimization
 - **React.memo**: Memoizing ProductCard component
 - **useCallback**: Memoizing callback functions
 - **useMemo**: Memoizing expensive calculations (cart total, filtered products)
 
-### ✅ Advanced UI Concepts
+### Advanced UI Concepts
 - **Error Boundaries**: Catching and handling React errors
 - **Lazy Loading + Suspense**: Code splitting for better performance
 
-### ✅ Production Features
+### Production Features
 - **Environment Variables**: Configuration via .env files
 - **Proper Folder Structure**: Organized component architecture
 
@@ -107,15 +107,10 @@ This app uses the [Fake Store API](https://fakestoreapi.com) for product data. Y
 
 ## Learning Path
 
-This project is designed to teach React concepts progressively:
+This project is designed to demonstrate React concepts progressively:
 1. Start with basic components and props
 2. Add state and event handling
 3. Implement routing and API calls
 4. Add global state with Redux and Context
 5. Optimize with memoization and lazy loading
 6. Add error handling and production features
-
-## License
-
-MIT
-
